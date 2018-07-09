@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>multi dimensional arrays</title>
+</head>
+<body>
+	<h1>multi dimensional arrays</h1>
+	<h2>Arrays within arrays</h2>
+
+<script type="text/javascript">
+	var classRoom = [['Jason', 'Long', 'Jerry', 'Austin'], ['Hooman', 'Thadeos', 'Ermias'], ['Kelly', 'Ari']];
+
+
+	for (var i=0; i<classRoom.length; i++) {
+    // inner loop applies to sub-arrays
+    for (var a=0; a<classRoom[i].length; a++) 
+        // accesses each element of each sub-array in turn
+        console.log( classRoom[i][a] ); 
+	}
+
+	//write code to loop over classRoom and console.log out the students' names like the image
+
+</script>
+</body>
+</html>
